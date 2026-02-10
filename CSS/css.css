@@ -1,0 +1,93 @@
+* {
+  margin: 0 auto;
+}
+body {
+  font-family: "Poiret One", "Courier New", Courier, monospace;
+}
+header {
+  background-color: black;
+  position: relative;
+}
+header h2 {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  color: red;
+}
+header img {
+  display: flex;
+  justify-items: center;
+  width: 300px;
+}
+nav {
+  background-color: grey;
+  display: flex;
+  justify-items: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+}
+a:hover {
+  color: orange;
+}
+main {
+  background-image: url(../IMG/SIMULACRO\ 2\ images/fondo.png);
+}
+section {
+  width: 60%;
+}
+article {
+  text-align: center;
+  padding: 10px;
+}
+article h3 {
+  color: red;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+div img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  transition: 3s;
+}
+div img:hover {
+  transform: scale(1.1);
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: solid 1px black;
+  width: 100px;
+  position: fixed;
+  top: 30%;
+  right: 5%;
+  gap: 10px;
+}
+aside img {
+  width: calc(50%);
+}
+aside p {
+  color: red;
+}
+footer {
+  background-color: grey;
+  text-align: center;
+}
