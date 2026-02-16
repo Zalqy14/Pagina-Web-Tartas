@@ -1,5 +1,5 @@
 * {
-  margin: 0 auto;
+  margin: 0;
 }
 body {
   font-family: "Poiret One", "Courier New", Courier, monospace;
@@ -8,6 +8,8 @@ body {
 header {
   background-color: black;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 /* Titulo de la pagina web posicionado con position */
 header h2 {
@@ -17,15 +19,14 @@ header h2 {
   color: red;
 }
 header img {
-  display: flex;
-  justify-items: center;
   width: 300px;
 }
 /* El Nav Baja con la pagina web */
 nav {
   background-color: grey;
   display: flex;
-  justify-items: space-between;
+  justify-content: center;
+  gap: 50px;
   padding: 20px;
   position: sticky;
   top: 0;
@@ -44,6 +45,7 @@ main {
 }
 section {
   width: 60%;
+  margin: auto;
 }
 /* Este article modifica la parte de sobre nosotros*/
 article {
@@ -59,6 +61,7 @@ article h3 {
   flex-direction: row;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 /* Contenedor de las tartas */
 div {
@@ -81,12 +84,12 @@ div img:hover {
 aside {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   text-align: center;
   border: solid 1px black;
   width: 100px;
   position: fixed;
-  top: 30%;
+  top: 35%;
   right: 5%;
   gap: 10px;
 }
